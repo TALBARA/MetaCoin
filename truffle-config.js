@@ -53,6 +53,11 @@ module.exports = {
     //   network_id: 5,       // Goerli's id
     //   chain_id: 5
     // }
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*"
+    }
   },
 
   // Set default mocha options here, use special reporters etc.
